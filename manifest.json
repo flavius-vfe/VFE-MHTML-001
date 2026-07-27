@@ -1,0 +1,36 @@
+{
+  "manifest_version": 3,
+  "name": "VFE MHTML 001",
+  "short_name": "VFE MHTML",
+  "version": "0.0.1.1",
+  "version_name": "001 build1",
+  "description": "Save the current Chrome tab as a complete MHTML file.",
+  "minimum_chrome_version": "116",
+  "permissions": [
+    "activeTab",
+    "downloads",
+    "pageCapture"
+  ],
+  "action": {
+    "default_title": "Save page as MHTML",
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon-16.png",
+      "32": "icons/icon-32.png",
+      "48": "icons/icon-48.png",
+      "128": "icons/icon-128.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "icons/icon-16.png",
+    "32": "icons/icon-32.png",
+    "48": "icons/icon-48.png",
+    "128": "icons/icon-128.png"
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'"
+  }
+}

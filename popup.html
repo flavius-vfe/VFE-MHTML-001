@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>VFE MHTML 001</title>
+    <link rel="stylesheet" href="popup.css">
+  </head>
+  <body>
+    <main class="panel">
+      <header class="brand">
+        <img class="brand__icon" src="icons/icon-128.png" alt="VFE logo" width="64" height="64">
+        <div>
+          <h1>VFE MHTML 001</h1>
+          <p class="release">Release 001 <span aria-hidden="true">·</span> build1</p>
+        </div>
+      </header>
+
+      <p class="description">
+        Save the current page as one complete <strong>.mhtml</strong> file.
+      </p>
+
+      <button id="save" class="save-button" type="button">
+        <span class="save-button__icon" aria-hidden="true">↓</span>
+        <span>Save page as MHTML</span>
+      </button>
+
+      <p class="privacy-note">
+        Local operation only. No page data is uploaded or tracked.
+      </p>
+
+      <div id="status" class="status" data-state="idle" role="status" aria-live="polite">
+        Ready to save the active tab.
+      </div>
+
+      <footer>Author: Flavius</footer>
+    </main>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
