@@ -3,7 +3,7 @@
 A small Google Chrome extension that saves the active tab as one complete MHTML (`.mhtml`) file.
 
 - **Author:** Flavius
-- **Repository:** `flavius-vfe/VFE-MHTML-001` (private)
+- **Repository:** `flavius-vfe/VFE-MHTML-001`
 - **Release:** 001
 - **Build:** 1
 - **Manifest:** V3
