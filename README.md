@@ -2,6 +2,10 @@
 
 A small Google Chrome extension that saves the active tab as one complete MHTML (`.mhtml`) file.
 
+<p align="center">
+  <img src="images/menu_extension.png" width="45%" />
+</p>
+
 - **Author:** Flavius
 - **Repository:** `flavius-vfe/VFE-MHTML-001`
 - **Release:** 001
